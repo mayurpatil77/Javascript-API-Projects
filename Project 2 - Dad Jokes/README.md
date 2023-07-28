@@ -19,8 +19,7 @@ The project is built using the following technologies:
 - Fully responsive design, ensuring a seamless experience on all devices.
 
 ## Demo
-
-You can check out the live demo of the Random Bucket List Generator [here](https://random-bucket-list-mayur.netlify.app/).
+You can check out the live demo of the Dad Joke Generator [here](https://dad-joke-generator-by-mayur.netlify.app/).
 
 ## How to Use
 
@@ -30,7 +29,7 @@ You can check out the live demo of the Random Bucket List Generator [here](https
 
 ## Screenshots
 
-![Preview 1 ](https://github.com/mayurpatil77/Javascript-API-Projects/blob/main/Project%201%20-%20Bucket%20list%20(%20Random%20Task%20)/Assets/Desktop%20Version%20Preview.jpg?raw=true)
-![Preview 2 ](https://github.com/mayurpatil77/Javascript-API-Projects/blob/main/Project%201%20-%20Bucket%20list%20(%20Random%20Task%20)/Assets/Desktop%20version%20prevewi.jpg?raw=true)
-![Preview 3 ( Mobile ) ](https://github.com/mayurpatil77/Javascript-API-Projects/blob/main/Project%201%20-%20Bucket%20list%20(%20Random%20Task%20)/Assets/Mobile%20Verseion.jpg?raw=true)
+![Preview 1 ](https://github.com/mayurpatil77/Javascript-API-Projects/blob/main/Project%202%20-%20Dad%20Jokes/Assets/Desktop%20Preview%201.jpg?raw=true)
+![Preview 2 ](https://github.com/mayurpatil77/Javascript-API-Projects/blob/main/Project%202%20-%20Dad%20Jokes/Assets/Desktop%20Preview%202.jpg?raw=true)
+![Preview 3 ( Mobile ) ](https://github.com/mayurpatil77/Javascript-API-Projects/blob/main/Project%202%20-%20Dad%20Jokes/Assets/Mobile%20Preview.jpg?raw=true)
 
