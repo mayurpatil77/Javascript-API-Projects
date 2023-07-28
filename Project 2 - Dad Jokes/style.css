@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Center div :)  */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://staticimg.amarujala.com/assets/images/2022/11/21/750x506/jokes_1669033707.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+
+/* Content Style */
+
+.dadJokeContainer {
+    width: 700px;
+    height: 300px;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    background: linear-gradient(#FED54A, #FF9347);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Jock Paragraph */
+
+#dadJoke {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/* Get Jock Button  */
+
+#getDadJoke {
+    padding: 7px 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+/* Button Style When Hover */
+
+#getDadJoke:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* Media Queries To Make Responsive */
+
+@media only screen and (max-width: 767px) {
+    .dadJokeContainer {
+        width: 80vw;
+    }
+}
