@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUQmFN0jP7-sWRxvnY33CdJvGk2qzZlDo5Ng&usqp=CAU");
+    background-image: url("https://media.istockphoto.com/id/1209030907/vector/abstract-triangular-background.jpg?s=612x612&w=0&k=20&c=WL6sXFy_wr1z7Yk_lPbJ2Zhd2EjoM1eomgCN8C05Q6U=");
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid black;
@@ -26,7 +26,7 @@
 /* Content Style */
 
 .dataContainer {
-    width: 700px;
+    width: 600px;
     height: 600px;
     font-family: 'Chakra Petch', sans-serif;
     display: flex;
@@ -35,9 +35,9 @@
     align-items: center;
     padding: 50px 30px;
     font-size: 20px;
+    color: #ffffff;
     font-weight: bolder;
-    background-color: #f9d29d;
-    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+    background:linear-gradient(#42275a , #734b6d);
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -80,12 +80,20 @@
 
 /* showing Data with Style  */
 
+#qrCodeImage{
+    width: 200px;
+    height: 180px;
+}
+
 .apiData {
     line-height: 30px;
     font-size: 18px;
     margin: 20px 0px;
+    text-align: center;
 }
-
+.apiData p{
+    font-size: 10px;
+}
 /* Media Queries To Make Responsive */
 
 @media only screen and (max-width: 767px) {
@@ -93,4 +101,4 @@
         width: 80vw;
         height: auto;
     }
-}
+} 

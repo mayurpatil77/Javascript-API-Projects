@@ -7,28 +7,30 @@
 
     <!-- For Search Engines  -->
 
-    <meta name="description" content="The URL Lookup provides location information for any valid URL or domain name.">
-    <meta name="keywords" content="URL Lookup, URL Information finder, URL Lookup API">
+    <meta name="description"
+        content="The Whois Lookup Tool retrieves domain registration information for any given domain using the WHOIS protocol.">
+    <meta name="keywords" content="Whois Lookup, Domain Information finder, Whois Domain">
     <meta name="author" content="Mayur Patil">
     <meta name="robots" content="index, follow">
 
     <!-- For social media sharing -->
 
-    <meta property="og:title" content="URL Lookup">
+    <meta property="og:title" content="Whois Lookup">
     <meta property="og:description"
-        content="The URL Lookup provides location information for any valid URL or domain name.">
+        content="The Whois Lookup Tool retrieves domain registration information for any given domain using the WHOIS protocol.">
 
     <!-- For Twitter sharing -->
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="URL Lookup">
+    <meta name="twitter:title" content="Whois Lookup">
     <meta name="twitter:description"
-        content="The URL Lookup provides location information for any valid URL or domain name.">
+        content="The Whois Lookup Tool retrieves domain registration information for any given domain using the WHOIS protocol.">
 
     <!-- Favicon Image  -->
 
     <link rel="icon" type="image/x-icon"
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREPUu5MxzYWmOnGo5e-O6hU7egopvsoyj1wg&usqp=CAU">
+
 
     <!-- StyleSheets -->
 
@@ -36,7 +38,7 @@
 
     <!-- Title -->
 
-    <title>URL Lookup</title>
+    <title>WHOIS Lookup</title>
 </head>
 
 <body>
@@ -49,25 +51,24 @@
 
             <!-- Getting Inputs  -->
 
-            <p id="headingPara">ENTER URL 👇</p>
+            <p id="headingPara">ENTER DOMAIN BELOW 👇</p>
             <input id="inputBox" type="text" placeholder="google.com">
-            <button id="getData">GET URL DATA</button>
+            <button id="getData">GET DOMAIN DATA</button>
 
             <!-- Showing Here API Data  -->
 
             <div class="apiData">
-                <p id="is_valid"></p>
+                <p id="domain_name"></p>
+                <p id="registrar"></p>
+                <p id="whois_server"></p>
+                <p id="name_server_1"></p>
+                <p id="name_server_2"></p>
+                <p id="dnssec"></p>
+                <p id="org"></p>
+                <p id="state"></p>
                 <p id="country"></p>
-                <p id="country_code"></p>
-                <p id="region_code"></p>
-                <p id="region"></p>
-                <p id="city"></p>
-                <p id="zip"></p>
-                <p id="lat"></p>
-                <p id="lon"></p>
-                <p id="timezone"></p>
-                <p id="isp"></p>
-                <p id="url"></p>
+                <p id="email1"></p>
+                <p id="email2"></p>
             </div>
 
         </div>
