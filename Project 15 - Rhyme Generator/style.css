@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Center div :)  */
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/370/474/368/one-last-love-song-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+/* Content Style */
+
+.dataContainer {
+    width: 700px;
+    height: auto;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30px;
+    background-color: #1B98F5;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Input Styling */
+
+#inputBox {
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: none;
+    margin: 20px 0px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+/* Heading Style */
+
+#headingPara {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+#getData {
+    padding: 7px 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+/* Button Style When Hover */
+
+#getData:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* showing Data with Style  */
+
+.result {
+    line-height: 40px;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-weight: bolder;
+}
+
+/* Media Queries To Make Responsive */
+
+@media only screen and (max-width: 767px) {
+    .dataContainer {
+        width: 80vw;
+    }
+}
