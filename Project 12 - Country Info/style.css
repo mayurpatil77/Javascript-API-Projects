@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Center div :)  */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://e0.pxfuel.com/wallpapers/121/708/desktop-wallpaper-3d-political-world-map-blue-brickwall-map-of-world-countries-creative-world-maps-3d-art-3d-world-map-world-map-concepts-world-map-with-flags-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+/* Content Style */
+
+.dataContainer {
+    width: 700px;
+    height: 600px;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:#E8BD0D;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Input Styling */
+
+#inputBox {
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: none;
+    margin: 20px 0px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+/* Heading Style */
+
+#headingPara {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+#getData {
+    padding: 7px 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+/* Button Style When Hover */
+
+#getData:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* showing Data with Style  */
+
+.apiData {
+    line-height: 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+/* Media Queries To Make Responsive */
+
+@media only screen and (max-width: 767px) {
+    .dataContainer {
+        width: 80vw;
+        height: auto;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For Search Engines  -->
+
+    <meta name="description"
+        content="The Country info provides useful statistics about every country in the world.">
+    <meta name="keywords" content="Country Info">
+    <meta name="author" content="Mayur Patil">
+    <meta name="robots" content="index, follow">
+
+    <!-- For social media sharing -->
+
+    <meta property="og:title" content="Country Info">
+    <meta property="og:description"
+        content="The Country info provides useful statistics about every country in the world.">
+
+    <!-- For Twitter sharing -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Country Info">
+    <meta name="twitter:description"
+        content="The Country info provides useful statistics about every country in the world.">
+
+    <!-- Favicon Image  -->
+
+    <link rel="icon" type="image/x-icon"
+        href="https://static.thenounproject.com/png/1711244-200.png">
+
+
+    <!-- StyleSheets -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Title -->
+
+    <title>Country Info</title>
+</head>
+
+<body>
+
+    <!-- Content Container  -->
+
+    <div class="container">
+
+        <div class="dataContainer">
+
+            <!-- Getting Inputs  -->
+
+            <p id="headingPara">ENTER Country Name</p>
+            <input id="inputBox" type="text" placeholder="India">
+            <button id="getData">GET Country Info</button>
+
+            <!-- Showing Here API Data  -->
+
+            <div class="apiData">
+                <p><strong>Country:</strong> <span id="name"></span></p>
+                <p><strong>Currency:</strong> <span id="currency_code"></span> - <span id="currency_name"></span></p>
+                <p><strong>Sex Ratio:</strong> <span id="sex_ratio"></span></p>
+                <p><strong>Unemployment:</strong> <span id="unemployment"></span></p>
+                <p><strong>Life Expectancy (Male):</strong> <span id="life_expectancy_male"></span></p>
+                <p><strong>GDP Growth:</strong> <span id="gdp_growth"></span></p>
+                <p><strong>Capital:</strong> <span id="capital"></span></p>
+                <p><strong>Life Expectancy (Female):</strong> <span id="life_expectancy_female"></span></p>
+                <p><strong>Population:</strong> <span id="population"></span></p>
+                <p><strong>Internet Users (%):</strong> <span id="internet_users"></span></p>
+                <p><strong>GDP per Capita:</strong> <span id="gdp_per_capita"></span></p>
+                <p><strong>CO2 Emissions:</strong> <span id="co2_emissions"></span></p>                       
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Scripts  -->
+
+    <script src="app.js"></script>
+
+    <!-- Scripts  -->
+
+</body>
+
+</html>
